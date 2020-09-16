@@ -1,0 +1,152 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    cursor: pointer;
+    margin: 1.6rem 0;
+    color: darkcyan;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+header:hover{
+    transition: 800ms;
+    color: darkblue ;
+}
+
+
+/* ===== MENU BAR ===== */
+.menu-bar{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    position: relative;
+    text-align: center;
+    /* text-justify: distribute-all-lines; */
+}
+.menu-bar ul{
+    list-style: none;
+    padding: 0;
+}
+.menu-bar ul li{
+    font-size: 15px;
+    display: inline-block;
+    transition: transform 150ms ease-in-out;
+    margin: 1rem 0;
+}
+.menu-bar ul li:hover {
+    transform: scale(1.12);
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: darkcyan;
+    padding: 0.5rem 1rem;  
+}
+a:hover{
+    color: lightseagreen;
+}
+a.active {
+    border-bottom: 2px solid currentColor;
+}
+
+
+
+
+
+section.lorem {
+    margin: 2rem;
+    padding: 0.5px;
+}
+
+#lorem-ipsum{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+#contact-no{
+    color: teal;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+
+#special{
+    color: darkcyan;
+}
+
+.grid {
+    text-align: center;
+}
+
+.card{
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    border: solid 1px lightgrey;
+    border-radius: 4px;
+
+    margin: 20px;
+}
+
+.card:hover{
+    transition: 0.8s;
+    background-color: dimgray;
+}
+
+.card .card-header{
+    border: solid darkgray;
+    border-radius: 4px;
+    background-color: darkgray;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.card .card-footer{
+    font-family: monospace;
+    border: solid darkgray;
+    border-radius: 4px;
+    background-color: darkgray;
+}
+
+.card .card-image img{
+    width: 200px;
+    height: 200px;
+}
+.card .card-image{
+    text-align: center;
+}
+
+.price{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+.price-actual{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.price-discounted{
+    font-size: 20px;
+}
+
+
+
+footer{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+.call{
+    text-align: center;
+}
